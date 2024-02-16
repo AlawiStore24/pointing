@@ -10,4 +10,7 @@ wget https://raw.githubusercontent.com/AlawiStore24/pointing/main/pointing.sh
 mv pointing.sh /usr/local/sbin/pointing
 chmod +x /usr/local/sbin/pointing
 clear
+#delete setup.sh
+rm -rf setup.sh
+clear
 echo -e "penginstalan menu pointing domain selesai. silahkan ketik [ menu ] untuk menggunakannya"
