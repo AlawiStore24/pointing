@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #warna-warna
 biru="\033[1;36m" 
 hijau="\e[92;1m" 
