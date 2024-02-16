@@ -30,6 +30,7 @@ echo -e "${biru}│${NC} [${biru}13${NC}] domain ${biru}xxx.vpssantri.my.id     
 echo -e "${biru}│${NC} [${biru}14${NC}] domain ${biru}xxx.vpsvpn.my.id             ${biru}│${NC}"
 echo -e "${biru}│${NC} [${biru}15${NC}] domain ${biru}xxx.wush.my.id               ${biru}│${NC}"
 echo -e "${biru}│${NC} [${biru}16${NC}] domain ${biru}xxx.wussh.my.id              ${biru}│${NC}"
+echo -e "${biru}│${NC} [${biru}00${NC}] kembali ke ${biru}menu                     ${biru}│${NC}"
 echo -e "${biru}└──────────────────────────────────────────${biru}┘${NC}"
 echo -e ""
 read -rp "$( echo -e "${red}Pilih salah satu dari 1 sampai 16 :${NC}") " host
@@ -1394,6 +1395,11 @@ read -rp "$( echo -e "Tekan [ ${biru}enter$NC ] untuk kembali... ") "
 echo ""
 clear
 pointing
+#kembali ke menu
+elif [ $host -eq 0 ]
+then
+clear
+menu
 #sembarangan ketik
 else
    clear
