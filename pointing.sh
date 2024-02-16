@@ -105,7 +105,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN01}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -190,7 +190,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN02}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -275,7 +275,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN03}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -360,7 +360,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN04}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -445,7 +445,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN05}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -530,7 +530,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN06}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -615,7 +615,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN07}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -700,7 +700,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN08}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -785,7 +785,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN09}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -870,7 +870,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN010}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -955,7 +955,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN011}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -1040,7 +1040,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN012}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -1125,7 +1125,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN013}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -1210,7 +1210,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN014}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -1295,7 +1295,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN015}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -1380,7 +1380,7 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${SUB_DOMAIN016}'","content":"'${IP1}'","ttl":120,"proxied":false}')
 echo -e "${hijau}Sukses!$NC"
 echo -e ""
-sleep 3
+sleep 1
 clear
 #pemberitahuan selesai
 echo -e ""
@@ -1404,7 +1404,7 @@ menu
 else
    clear
     echo -e "${red}Kamu salah ketik, ${hijau}kembali ke awal....$NC"
-    sleep 3
+    sleep 1
     clear
     pointing
 fi
